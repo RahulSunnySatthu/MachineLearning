@@ -41,3 +41,7 @@ no_stpwords_string = no_stpwords_string[:-1]
 
 # output
 print(no_stpwords_string)
+
+from nltk import pos_tag
+pos_tag_=pos_tag(no_stpwords_string)
+print(pos_tag)
